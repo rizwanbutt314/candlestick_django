@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CandleStick Django</title>
+
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
+</head>
+<body>
+<div id="pricing-table" class="clear">
+    <div class="tools-section">
+
+    </div>
+    <div class="chart-section">
+        <div id="container" style="height: 400px; min-width: 310px"></div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.highcharts.com/stock/highstock.js"></script>
+<script src="https://code.highcharts.com/stock/modules/exporting.js"></script>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="{% static 'js/index.js' %}"></script>
+
+</body>
+</html>

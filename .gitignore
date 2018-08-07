@@ -1,5 +1,6 @@
 #Files
-
+*.pyc
+db.sqlite3
 
 #Directories
 venv3/
