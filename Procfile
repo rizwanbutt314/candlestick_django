@@ -1,1 +1,1 @@
-web: gunicorn survey.wsgi --log-file -
+web: gunicorn candlestick_django.wsgi --log-file -
